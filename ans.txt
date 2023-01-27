@@ -1,0 +1,21 @@
+Q1) import os
+    print(os.environ)
+Q2) ?query = something... QUERY_STRING
+Q3) HTTP_USER_AGENT
+Q4) s = cgi.FieldStorage()
+    username = s.getfirst("username")
+    password = s.getfirst("password")
+Q5) cookie = SimpleCookie(os.environ["HTTP_COOKIE"])
+    cookie_username = None
+    cookie_password = None
+    if cookie.get("username"): 
+        cookie_username = cookie.get("username").value 
+    
+    if cookie.get("password"):
+        cookie_password = cookie.get("password").value 
+
+Q6) HTTP_COOKIE
+
+Q7) Saved user data for a particular website to improve "user experience"
+
+Q8) https://github.com/kdpone/cgi-lab
